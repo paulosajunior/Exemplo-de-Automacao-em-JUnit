@@ -32,15 +32,7 @@ public class Cadastro2Test {
 		String mensagem = new CadastroUsuarioPage(driver).CadastroConfirmadoPageComParametros("Paulo4", "Junior4", "paulojunior4@gmail.com", "Rua Daqui mesmo").mensagemCadastroSucesso();				
 		Assert.assertEquals("===>>>ERRO NA SAIDA DE DADOS<<<===","Usuário Criado com sucesso" ,mensagem);
 	}
-	
-	//@Test
-	public void cancelaCadastro(){
-		String mensagem = new CadastroUsuarioPage(driver).CadastroConfirmadoPageComParametros("Paulo4", "Junior4", "paulojunior4@gmail.com", "Rua Daqui mesmo").mensagemCadastroSucesso();				
-		Assert.assertEquals("===>>>ERRO NA SAIDA DE DADOS<<<===","Usuário Criado com sucesso" ,mensagem);
-	}
-	//@Test
-		
-		
+			
 	//---------------------------------------------------------
 	//@After que grava a evidência após cada teste finalizar
 	
