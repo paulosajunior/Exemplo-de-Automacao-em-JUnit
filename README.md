@@ -1,4 +1,4 @@
-# Treinamento de Automacao Java JUnit Selenium WebDriver
+# Treinamento de Automacao Java, JUnit e Selenium WebDriver
 
 Neste repositório consta os projetos de automação de testes com Java, JUnit e Selenium WebDriver. Ministrei este treinamento em 24/11/2018.
 
